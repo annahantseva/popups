@@ -1,0 +1,33 @@
+body {
+    background-color: #1abc9c;
+    color: white;
+    font-family: Arial;
+    position: absolute; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.popup {
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 250px;
+    top: 40%;
+    left: 40%;
+    padding: 10px;
+}
+
+.highlighted1 {
+    font-size: 10px;
+}
+
+.highlighted2 {
+    color: #1abc9c;
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.411);
+    color: rgba(225, 225, 225, 0.315);
+    padding: 20px;
+    margin: -20px;
+}

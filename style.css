@@ -17,17 +17,21 @@ body {
     padding: 10px;
 }
 
-.highlighted1 {
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.411);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.highlighted {
     font-size: 10px;
 }
 
-.highlighted2 {
-    color: #1abc9c;
-}
-
-.opacity {
-    background: rgba(0, 0, 0, 0.411);
-    color: rgba(225, 225, 225, 0.315);
-    padding: 20px;
-    margin: -20px;
-}
